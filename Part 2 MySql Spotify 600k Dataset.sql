@@ -1,4 +1,4 @@
--- Inserting data from JSON FILE, copied data to insert, but could have also imported;
+-- - Inserting data from JSON FILE, copied data to insert, but could have also imported;
 
 CREATE TABLE ArtistRecommendations (
     ArtistID VARCHAR(50),
