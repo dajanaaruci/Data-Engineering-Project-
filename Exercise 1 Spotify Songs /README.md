@@ -4,7 +4,9 @@ This project looks at a dataset of songs, analyzing their features to gain insig
 
 Dataset
 
-You can find the dataset on Kaggle:https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics.
+You can find the dataset on Kaggle: https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics.
+
+We refer to the raw dataset as the Bronze Layer, representing the initial unprocessed data before any cleaning or transformation.
 
 The dataset contains the following details about songs:
 
@@ -15,7 +17,7 @@ Energy: The intensity and activity level of the song
 Loudness: The overall loudness of the song in decibels
 Valence: Positivity of the song (e.g., happy, sad)
 Lyrics: The words in the song
-There are also other attributes such as tempo, speechiness, acousticness, and duration (in milliseconds).
+There are also other attributes such as tempo, speech, acousticness, and duration (in milliseconds).
 
 Data Processing and Analysis
 
@@ -30,7 +32,7 @@ Mood Category: Songs were categorized as Sad, Neutral, or Happy based on the val
 Party Track Label: We created a new feature to identify high-energy, danceable songs as “party tracks.”
 Data Scaling:
 
-Log Transformations: Applied to features like loudness and speechiness to reduce skewness.
+Log Transformations: Applied to features like loudness and speech to reduce skewness.
 Min-Max Scaling: Used to scale features like danceability, energy, and tempo between 0 and 1 for better comparison.
 Insights from the Data
 
