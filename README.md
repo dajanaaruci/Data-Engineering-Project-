@@ -5,8 +5,8 @@ This repository contains a comprehensive data engineering project focused on tra
 
 The project is divided into four main exercises, each focusing on different aspects of data engineering:
 1. 🏗️ Medallion Architecture Implementation
-2. 🗄️ Data Warehouse Development
-3. 🔄 MongoDB Database Creation
+2. 🗄️ Data Warehouse Development (SQL files are in .sql format)
+3. 🔄 MongoDB Database Creation (Reports are in .doc format)
 4. 📈 Data Visualization and Reporting
 
 ## 🏗️ Exercise 1: Medallion Architecture
