@@ -1,4 +1,4 @@
-# Spotify Charts Data Analysis
+#  🎻Spotify Charts Data Analysis
 
 This project explores the Spotify Charts dataset available on Kaggle, analyzing the data to uncover insights and trends.
 
