@@ -1,5 +1,7 @@
 US Accidents Analysis Using Medallion Architecture — Exercise 1
+
 Introduction
+
 Each year, 1.35 million people lose their lives on roadways worldwide, making road crashes the eighth leading cause of death globally and the leading cause for individuals aged 5–29. More people now die in road crashes than from HIV/AIDS.
 
 Accidents significantly impact individuals, families, and communities, particularly in the United States. Understanding the causes, patterns, and consequences of accidents is essential for public safety, transportation planning, and policy-making. This project explores accidents in the U.S., leveraging the US Accidents Dataset to identify trends, patterns, and critical factors.
