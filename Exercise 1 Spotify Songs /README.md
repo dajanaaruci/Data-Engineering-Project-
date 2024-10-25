@@ -4,7 +4,7 @@ This project looks at a dataset of songs, analyzing their features to gain insig
 
 ## Data Card
 
-You can find the dataset on Kaggle: https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics.
+You can find the dataset on Kaggle: [Spotify Songs](https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics)
 
 We refer to the raw dataset as the Bronze Layer, representing the initial unprocessed data before any cleaning or transformation.
 
