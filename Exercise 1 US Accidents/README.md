@@ -7,7 +7,7 @@ Each year, 1.35 million people lose their lives on roadways worldwide, making ro
 Accidents significantly impact individuals, families, and communities, particularly in the United States. Understanding the causes, patterns, and consequences of accidents is essential for public safety, transportation planning, and policy-making. This project explores accidents in the U.S., leveraging the US Accidents Dataset to identify trends, patterns, and critical factors.
 
 ## Dataset
-The dataset used in this project is the US Accidents Dataset, available on Kaggle.
+The dataset used in this project is the US Accidents Dataset, available on Kaggle. [US Accidents](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
 
 This dataset covers traffic accidents across 49 U.S. states from February 2016 to March 2023, comprising 7.7 million records. The data was collected from multiple traffic APIs that stream information from transportation departments, law enforcement, cameras, and road sensors.
 
