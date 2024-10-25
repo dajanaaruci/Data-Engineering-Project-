@@ -1,4 +1,4 @@
-# US Accidents Analysis Using Medallion Architecture — Exercise 1
+# 🚧US Accidents Analysis Using Medallion Architecture — Exercise 1
 
 ## Introduction
 
