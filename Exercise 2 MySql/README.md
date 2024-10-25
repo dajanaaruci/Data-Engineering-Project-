@@ -1,4 +1,4 @@
-# 🎵 Spotify Data Warehouse Project — Exercise 2: Analysis of Spotify Data
+# 🎵 Spotify Data Warehouse — Exercise 2: Analysis of Spotify Data
 
 A deep-dive analysis exercise leveraging the Spotify data warehouse, specifically designed to extract valuable insights into music trends, artist evolution, and listener preferences.
 
