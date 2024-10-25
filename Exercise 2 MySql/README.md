@@ -2,7 +2,7 @@
 A deep-dive analysis exercise leveraging the Spotify data warehouse, specifically designed to extract valuable insights into music trends, artist evolution, and listener preferences.
 
 Dataset
-Link to dataset: Spotify Dataset 1921-2020 on Kaggle
+Link to dataset:https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks
 
 Project Overview
 Exercise 2 utilizes the robust Spotify data warehouse developed for comprehensive data analysis across a century of music. The warehouse includes a multi-layered architecture, supporting historical analysis and high data integrity, with temporal tracking using Slowly Changing Dimensions (Type 2 SCD).
