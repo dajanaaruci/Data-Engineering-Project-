@@ -1,4 +1,4 @@
-## Spotify Charts Data Analysis
+# Spotify Charts Data Analysis
 
 This project explores the Spotify Charts dataset available on Kaggle, analyzing the data to uncover insights and trends.
 
@@ -6,7 +6,7 @@ This project explores the Spotify Charts dataset available on Kaggle, analyzing 
 
 The dataset used in this project is the [Spotify Charts](https://www.kaggle.com/datasets/dhruvildave/spotify-charts) dataset from Kaggle. This dataset contains information on the daily top 200 songs for various countries, including song rankings, metadata, streaming numbers, and date information. It contains 26,173,514 data points separated into 9 columns; title, rank, date, artist, url, region, chart, trend, streams.
 
-## Data Preprocessing and Analysis
+# Data Preprocessing and Analysis
 
 For this part of the project, we have:
 
@@ -26,6 +26,6 @@ Our analysis of the Spotify Charts dataset has uncovered several interesting ins
 
 These findings are detailed in the project repository, along with the code and visualizations used to uncover them.
 
-## Next Steps
+# Next Steps
 
 Going forward, we plan to use the cleaned and enriched Spotify Charts dataset to build predictive models that can forecast future song performance in charts. This could be useful for music industry professionals, record labels, and artists to better understand and plan their marketing and release strategies.
