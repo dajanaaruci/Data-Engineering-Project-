@@ -1,34 +1,34 @@
-🎵 Spotify Data Warehouse Project
-A sophisticated MySQL data warehouse implementation designed for comprehensive analysis of Spotify music data, featuring enterprise-grade architecture and advanced temporal tracking capabilities. 
-Link to dataset: https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks
+🎵 Spotify Data Warehouse Project — Exercise 2: Analysis of Spotify Data
+A deep-dive analysis exercise leveraging the Spotify data warehouse, specifically designed to extract valuable insights into music trends, artist evolution, and listener preferences.
+
+Dataset
+Link to dataset: Spotify Dataset 1921-2020 on Kaggle
+
 Project Overview
-This enterprise-scale data warehouse project transforms raw Spotify music data into actionable insights through a robust multi-layered architecture. The system implements industry-standard slowly changing dimensions (Type 2 SCD) to maintain historical accuracy and provide temporal analysis capabilities.
-The warehouse processes the comprehensive Spotify Dataset 1921-2020, which contains detailed track metadata from over 600,000 songs. This extensive dataset encompasses comprehensive artist information, advanced audio feature analytics, historical popularity metrics, genre classifications, and listener engagement data. The resulting warehouse enables deep analysis of music trends, artist performance, and listener preferences across a century of recorded music.
+Exercise 2 utilizes the robust Spotify data warehouse developed for comprehensive data analysis across a century of music. The warehouse includes a multi-layered architecture, supporting historical analysis and high data integrity, with temporal tracking using Slowly Changing Dimensions (Type 2 SCD).
+
+Key Objectives
+Artist Evolution: Track changes in artist popularity and genre over time.
+Genre Trend Analysis: Identify trends in genre popularity and distribution.
+Music Characteristics: Examine track features such as tempo, key, and energy over different periods.
+Listener Preferences: Analyze engagement data to understand shifts in listener tastes.
 Core Features
-Multi-Layer Architecture
-The Stage Layer serves as the initial data landing zone, where incoming data undergoes rigorous validation and quality checks. This layer implements preliminary transformation and cleaning processes, with comprehensive error handling and logging mechanisms to ensure data integrity from the outset.
-The Historical Layer maintains temporal accuracy through Type 2 Slowly Changing Dimensions. This sophisticated approach enables tracking of all changes over time, with automated versioning and current record flagging. The system maintains complete data lineage, allowing for point-in-time analysis and historical trend examination.
-Automated Data Processing
-The warehouse features sophisticated data transfer systems that handle artist data processing, track information synchronization, and recommendation data integration. Each process includes built-in data quality validation to maintain the highest standards of data integrity.
-Advanced change tracking mechanisms automatically maintain historical records, detect and log changes, and manage data lineage. This comprehensive approach ensures that no historical information is lost while maintaining efficient access to current data.
-Analysis Framework
-The system provides sophisticated analytical views for tracking popular artists, monitoring explicit content, and analyzing recent recommendations. These views enable deep trend identification and genre distribution analysis across the entire dataset.
-Powerful aggregation systems calculate and maintain artist popularity metrics, track distribution analysis, and recommendation tracking. These systems enable both point-in-time and temporal trend analysis, providing valuable insights into the evolution of music preferences and artist success.
-Technical Architecture
-Stage Layer Design
-The Stage Layer serves as the foundation of data quality, implementing comprehensive validation frameworks and normalization processes. Sophisticated cleaning procedures handle data inconsistencies, while robust error handling systems and logging mechanisms ensure complete visibility into the data processing pipeline.
-Historical Layer Design
-The Historical Layer maintains the temporal integrity of all data through sophisticated tracking systems and change history maintenance. Current record management and version control mechanisms ensure accurate point-in-time reporting, while comprehensive data lineage tracking enables full visibility into how data changes over time.
+Historical Data Maintenance: Temporal integrity is preserved through SCD Type 2, enabling analysis of data changes over time.
+Automated Data Processing: Data transfer pipelines handle artist and track information, maintaining historical records for point-in-time and trend analysis.
+Analysis Framework: Includes analytical views for popular artists, genre trends, explicit content tracking, and recommendations.
 Data Model
 Dimension Tables
-The Artist Dimension encompasses comprehensive artist metadata, temporal tracking fields, genre classifications, and popularity metrics. This rich data structure enables sophisticated analysis of artist evolution and success over time.
-The Track Dimension contains detailed track information, including audio features, performance metrics, and content flags. This structure enables deep analysis of musical trends and characteristics across different eras and genres.
+Artist Dimension: Stores artist metadata, including popularity metrics, genre, and collaboration patterns.
+Track Dimension: Captures track-specific details such as audio features and performance metrics.
 Fact Tables
-The Artist Recommendations fact table maintains recommendation scores, temporal validity periods, relationship strengths, and genre correlations. This sophisticated structure enables complex analysis of music relationships and listener preferences over time.
-Analysis Capabilities
-Artist Analysis
-The system enables detailed historical popularity tracking, monitoring of genre evolution, and analysis of follower growth patterns. Sophisticated algorithms identify collaboration patterns and artistic evolution over time.
-Track Analysis
-Advanced track analysis capabilities include mood categorization, popularity trend analysis, and detailed audio feature examination. The system provides comprehensive content classification capabilities for understanding music characteristics and trends.
-Recommendation Analysis
-The recommendation engine performs sophisticated similarity scoring, genre-based recommendations, and temporal preference tracking. Advanced collaborative filtering provides deep insights into music relationships and listener preferences.
+Artist Recommendations: Contains recommendation scores, genre-based correlations, and listener preference tracking.
+Technical Architecture
+Stage Layer: Initial landing and validation zone for incoming data.
+Historical Layer: Stores changes over time with automated versioning and point-in-time analysis.
+Advanced Analysis Layer: Supports complex aggregation and temporal analysis for artist, track, and genre evolution.
+Analytical Capabilities
+Artist Popularity and Genre Evolution: Track artist growth, collaboration patterns, and genre shifts.
+Music Feature Analysis: Detailed examination of tempo, energy, and mood categorization.
+Recommendation Tracking: Advanced collaborative filtering for insight into music relationships and listener patterns.
+Conclusion
+Exercise 2 serves as a key component in understanding long-term trends in the Spotify music ecosystem, providing insights into the evolution of music and listener preferences through data-driven techniques.
