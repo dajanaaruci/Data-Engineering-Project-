@@ -1,17 +1,17 @@
-US Accidents Analysis Using Medallion Architecture — Exercise 1
+# US Accidents Analysis Using Medallion Architecture — Exercise 1
 
-Introduction
+## Introduction
 
 Each year, 1.35 million people lose their lives on roadways worldwide, making road crashes the eighth leading cause of death globally and the leading cause for individuals aged 5–29. More people now die in road crashes than from HIV/AIDS.
 
 Accidents significantly impact individuals, families, and communities, particularly in the United States. Understanding the causes, patterns, and consequences of accidents is essential for public safety, transportation planning, and policy-making. This project explores accidents in the U.S., leveraging the US Accidents Dataset to identify trends, patterns, and critical factors.
 
-Dataset
+## Dataset
 The dataset used in this project is the US Accidents Dataset, available on Kaggle.
 
 This dataset covers traffic accidents across 49 U.S. states from February 2016 to March 2023, comprising 7.7 million records. The data was collected from multiple traffic APIs that stream information from transportation departments, law enforcement, cameras, and road sensors.
 
-Project Objectives
+## Project Objectives
 The primary objectives of this project are as follows:
 
 Public Safety: Analyze accident causes to reduce fatalities and injuries.
@@ -29,7 +29,7 @@ Silver Layer: Data cleaning, transformation, and filtering to extract meaningful
 Gold Layer: Finalized, enriched data prepared for advanced analysis, such as predicting accident severity and identifying regional trends.
 This architecture ensures the data processing pipeline is both scalable and efficient, facilitating detailed analysis of large datasets.
 
-Data Exploration and Visualizations
+## Data Exploration and Visualizations
 The focus of data exploration is to uncover patterns and generate visual insights to support public safety initiatives. This includes:
 
 Correlation Analysis: Examining relationships between factors like weather, location, and time with accident severity.
