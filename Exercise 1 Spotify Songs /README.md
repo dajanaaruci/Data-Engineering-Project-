@@ -1,4 +1,4 @@
-# Spotify Songs Dataset Analysis
+#🎶 Spotify Songs Dataset Analysis
 
 This project looks at a dataset of songs, analyzing their features to gain insights and understand trends. The dataset includes information about various song attributes like danceability, energy, loudness, and lyrics. Through cleaning, transforming, and visualizing the data, we aim to extract meaningful insights for further analysis.
 
